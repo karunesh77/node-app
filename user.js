@@ -1,19 +1,19 @@
+
 import mongoose from "mongoose";
 
 const addresSchema = new mongoose.Schema({
     city:{
         type:String,
-        required:true,
+        
     },
     state:{
         type:String,
-        required:true,
     },
     pinCode:{
         type:Number,
-        required:true,
     }
 },{timestamps:true})
+
 
 
 
